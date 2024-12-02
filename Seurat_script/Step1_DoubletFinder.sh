@@ -1,0 +1,15 @@
+Rscript Doublet.R rawdata/Eye Eye Seurat_lib.R doubletfinder/Eye
+Rscript Doublet.R rawdata/Gill Gill Seurat_lib.R doubletfinder/Gill
+Rscript Doublet.R rawdata/Gonad Gonad Seurat_lib.R doubletfinder/Gonad
+Rscript Doublet.R rawdata/Headkidney Headkidney Seurat_lib.R doubletfinder/Headkidney
+Rscript Doublet.R rawdata/Heart Heart Seurat_lib.R doubletfinder/Heart
+Rscript Doublet.R rawdata/Liver Liver Seurat_lib.R doubletfinder/Liver
+Rscript Doublet.R rawdata/Midkidney Midkidney Seurat_lib.R doubletfinder/Midkidney
+Rscript Doublet.R rawdata/Muscle Muscle Seurat_lib.R doubletfinder/Muscle
+Rscript Doublet.R rawdata/Pyloriccaecum Pyloriccaecum Seurat_lib.R doubletfinder/Pyloriccaecum
+Rscript Doublet.R rawdata/Rectum Rectum Seurat_lib.R doubletfinder/Rectum
+Rscript Doublet.R rawdata/Skin Skin Seurat_lib.R doubletfinder/Skin
+Rscript Doublet.R rawdata/Smallintestine Smallintestine Seurat_lib.R doubletfinder/Smallintestine
+Rscript Doublet.R rawdata/Spiralintestine Spiralintestine Seurat_lib.R doubletfinder/Spiralintestine
+Rscript Doublet.R rawdata/Spleen Spleen Seurat_lib.R doubletfinder/Spleen
+Rscript Doublet.R rawdata/Stomach Stomach Seurat_lib.R doubletfinder/Stomach

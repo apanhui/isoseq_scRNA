@@ -1,0 +1,4 @@
+diamond-0.9.25 blastx -k 20 -p 4 -f 6  -e 1e-5 --salltitles -q Acipenser_dabryanus_isoforms.fasta -d db/diamond/ko/animal -o kegg_result/kegg.out --tmpdir /tmp
+diamond-0.9.25 blastx -k 20 -p 4 -f 6  -e 1e-5 --salltitles -q Acipenser_dabryanus_isoforms.fasta -d db/diamond/kog/kog -o cog_result/cog.out --tmpdir /tmp
+diamond-0.9.25 blastx -k 20 -p 4 -f 6 qseqid qlen qstart qend sseqid slen sstart send pident length mismatch gaps bitscore evalue stitle  -e 1e-5 --salltitles -q Acipenser_dabryanus_isoforms.fasta -d db/diamond/uniprot_sprot/uniprot_sprot -o Acipenser_dabryanus.swsp.xls --tmpdir /tmp
+diamond-0.9.25 blastx -k 20 -p 4 -f 6 qseqid qlen qstart qend sseqid slen sstart send pident length mismatch gaps bitscore evalue stitle  -e 1e-5 --salltitles -q Acipenser_dabryanus_isoforms.fasta -d db/diamond/nr/animal -o Acipenser_dabryanus.nr.xls --tmpdir /tmp
