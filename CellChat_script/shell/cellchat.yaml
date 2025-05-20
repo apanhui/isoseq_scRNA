@@ -1,0 +1,40 @@
+version : '1.0'
+
+project_id : cellchat
+
+#### step0 ####
+object : obj.Rda
+
+## Final cells use the intersect of sample$use & cluster$use & cell.use. ##
+sample : 
+    col_name : 'DF'
+    group : ~ ## ~ := one sample as one group respectively | group_name1 : [ sample_name1, sample_name2, ... ]
+
+cluster : 
+    col_name : 'seurat_clusters'
+    rename : ~ ## ~ | current_name : new_name
+    use    : ~ ## ~ | [ new_name1, new_name2, ... ]
+
+cell.use : ~ ## ~ | <file> := one cell_id one line
+
+
+database : 'human' # <db_file> | human | mouse | zebrafish 
+
+data : 
+    assay : ~
+
+features :
+    rename : 'name' ## <file> := [current_id]\t[database_genename] | 'name'
+    use : ~ ## ~ | <file> := one current_id one line
+
+#### step1 ####
+select_commun :
+    source : ~
+    target : ~
+    method : 'both_side' ## one_side | both_side
+    ## one_side : keeping only source-target
+    ## both_side : keeping source-target or target-source
+
+#### step2 ####
+diff : ~ ## ~ | - [ control, treatment ] # use group_name 
+

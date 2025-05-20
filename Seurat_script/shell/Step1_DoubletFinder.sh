@@ -1,0 +1,17 @@
+Rscript ../script/Doublet.R ../data/rawdata/Blood Blood ../script/Seurat_lib.R ../data/doubletfinder/Blood
+Rscript ../script/Doublet.R ../data/rawdata/Brain Brain ../script/Seurat_lib.R ../data/doubletfinder/Brain
+Rscript ../script/Doublet.R ../data/rawdata/Eye Eye ../script/Seurat_lib.R ../data/doubletfinder/Eye
+Rscript ../script/Doublet.R ../data/rawdata/Gill Gill ../script/Seurat_lib.R ../data/doubletfinder/Gill
+Rscript ../script/Doublet.R ../data/rawdata/Gonad Gonad ../script/Seurat_lib.R ../data/doubletfinder/Gonad
+Rscript ../script/Doublet.R ../data/rawdata/Headkidney Headkidney ../script/Seurat_lib.R ../data/doubletfinder/Headkidney
+Rscript ../script/Doublet.R ../data/rawdata/Heart Heart ../script/Seurat_lib.R ../data/doubletfinder/Heart
+Rscript ../script/Doublet.R ../data/rawdata/Liver Liver ../script/Seurat_lib.R ../data/doubletfinder/Liver
+Rscript ../script/Doublet.R ../data/rawdata/Midkidney Midkidney ../script/Seurat_lib.R ../data/doubletfinder/Midkidney
+Rscript ../script/Doublet.R ../data/rawdata/Muscle Muscle ../script/Seurat_lib.R ../data/doubletfinder/Muscle
+Rscript ../script/Doublet.R ../data/rawdata/Pyloriccaecum Pyloriccaecum ../script/Seurat_lib.R ../data/doubletfinder/Pyloriccaecum
+Rscript ../script/Doublet.R ../data/rawdata/Rectum Rectum ../script/Seurat_lib.R ../data/doubletfinder/Rectum
+Rscript ../script/Doublet.R ../data/rawdata/Skin Skin ../script/Seurat_lib.R ../data/doubletfinder/Skin
+Rscript ../script/Doublet.R ../data/rawdata/Smallintestine Smallintestine ../script/Seurat_lib.R ../data/doubletfinder/Smallintestine
+Rscript ../script/Doublet.R ../data/rawdata/Spiralintestine Spiralintestine ../script/Seurat_lib.R ../data/doubletfinder/Spiralintestine
+Rscript ../script/Doublet.R ../data/rawdata/Spleen Spleen ../script/Seurat_lib.R ../data/doubletfinder/Spleen
+Rscript ../script/Doublet.R ../data/rawdata/Stomach Stomach ../script/Seurat_lib.R ../data/doubletfinder/Stomach

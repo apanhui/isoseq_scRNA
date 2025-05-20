@@ -1,0 +1,82 @@
+---
+FindMarkers:
+  logfc: 0.25
+  min_pct: 0.25
+  pvalue: 0.01
+Groups: ~
+cell_cycle:
+  is_remove: TRUE
+  is_rm_all_signal: FALSE
+cluster_resolution: 0.5
+data:
+  dir:
+    - rawdata/Blood
+    - rawdata/Brain
+    - rawdata/Eye
+    - rawdata/Gill
+    - rawdata/Gonad
+    - rawdata/Headkidney
+    - rawdata/Heart
+    - rawdata/Liver
+    - rawdata/Midkidney
+    - rawdata/Muscle
+    - rawdata/Pyloriccaecum
+    - rawdata/Rectum
+    - rawdata/Skin
+    - rawdata/Smallintestine
+    - rawdata/Spiralintestine
+    - rawdata/Spleen
+    - rawdata/Stomach
+  name:
+    - Blood
+    - Brain
+    - Eye
+    - Gill
+    - Gonad
+    - Headkidney
+    - Heart
+    - Liver
+    - Midkidney
+    - Muscle
+    - Pyloriccaecum
+    - Rectum
+    - Skin
+    - Smallintestine
+    - Spiralintestine
+    - Spleen
+    - Stomach
+filter:
+  filter.cells: doubletfinder/doublet.xls
+  set.num: none
+  set.num.seed: ~
+  standard:
+    nCount_RNA:
+      - 0
+      - 44000
+    nFeature_RNA:
+      - 200
+      - 9400
+    percent.mito:
+      - -.inf
+      - 10
+    percent.plastid:
+      - auto
+filter_gene:
+  min.cell: 0
+  override:
+    features: ~
+    set_to: 0
+heatmap:
+  top: 5
+integration:
+  method: harmony
+marker:
+  excluded: ~
+  expected: ~
+  mito_list: ref/mt_list.xls
+  more: ~
+  plastid_list: null
+  vfeatures: ~
+name_list: ref/name_list.xls
+project_id: xxxxxx
+version: 6.1
