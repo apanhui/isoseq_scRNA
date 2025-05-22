@@ -89,7 +89,6 @@
 		```shell
 		Rscript script/seurat2cellchat.R data/obj.Rda shell/cellchat.yaml CellChat_result
 		```
-        obj.Rda can be download from url ''
 	- Steps :
 		```
 		1. Read DataBase
@@ -112,3 +111,8 @@
 		4. computeCommunProbPathway
 		5. draw figures (network, dotplot, contribution)
 		```
+
+### Seurat object Rdata file
+
+Rda file 'obj.Rda' can be download from https://www.kdocs.cn/view/l/cdUfKEu1jIl2
+
